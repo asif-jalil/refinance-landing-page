@@ -1,0 +1,403 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .home-content h1 {
+    font-size: 58px;
+  }
+
+  .home-content p {
+    font-size: 20px;
+  }
+
+  .logo {
+    max-width: 320px;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .menu-trigger {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  header.sticky-state .menu-trigger {
+    color: #131238;
+  }
+
+  .main-nav {
+    position: fixed;
+    top: 0;
+    right: -40%;
+    width: 40%;
+    height: 100vh;
+    overflow: auto;
+    background: #fff;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 999;
+    transition: 0.45s;
+    -webkit-transition: 0.45s;
+    -moz-transition: 0.45s;
+    -ms-transition: 0.45s;
+    -o-transition: 0.45s;
+  }
+
+  .main-nav.active {
+    right: 0;
+  }
+
+  .overlay.active {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 888;
+  }
+
+  .main-menu {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .menu-item {
+    color: #131238;
+  }
+
+  .menu-item {
+    margin-bottom: 15px;
+  }
+
+
+  .menu-item.active {
+    color: #673ab7;
+  }
+
+  .menu-item.active::before {
+    background: #673ab7;
+  }
+
+  .menu-item a {
+    padding: 8px 0;
+  }
+
+  .nav-contact {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 0;
+    padding: 25px 0;
+    background: #673ab7;
+  }
+
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  header {
+    height: 60px;
+  }
+
+  .logo {
+    max-width: 300px;
+  }
+
+  .home {
+    height: 700px;
+  }
+
+  .home-content h1 {
+    font-size: 38px;
+  }
+
+  .home-content p {
+    font-size: 19px;
+    line-height: 31px;
+  }
+
+  .home-content p br {
+    display: none;
+  }
+
+  .home-form-header h2 {
+    font-size: 26px;
+  }
+
+  .home-form-header p {
+    font-size: 14px;
+  }
+
+  .home-form-body {
+    padding: 30px 20px 20px;
+  }
+
+  .home-single-input input,
+  .home-single-input select {
+    height: 36px;
+    font-size: 14px;
+  }
+
+  .home-apply-btn {
+    height: 36px;
+    line-height: 36px;
+    font-size: 15px;
+  }
+
+  .featured-item {
+    padding: 18px;
+  }
+
+  .featured-item img {
+    width: 60px;
+    margin-bottom: 18px;
+  }
+
+  .featured-item h4 {
+    font-size: 18px;
+  }
+
+  .featured-item p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .why {
+    padding: 80px 0;
+  }
+
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .reason-content h4 {
+    font-size: 20px;
+  }
+
+  .reason-content p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .refinalce-item-content h4 {
+    font-size: 30px;
+  }
+
+  .refinalce-item-content p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .c2a h2 {
+    font-size: 38px;
+  }
+
+  .c2a p {
+    font-size: 17px;
+  }
+
+  .c2a p br {
+    display: none;
+  }
+
+  .c2a-btn {
+    font-size: 17px;
+    padding: 11px 28px;
+  }
+
+  .foot-desc {
+    margin-bottom: 30px;
+  }
+
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+  .logo {
+    max-width: 180px;
+  }
+
+  header {
+    height: 45px;
+  }
+
+  .menu-trigger {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 25px;
+  }
+
+  .home {
+    height: auto;
+    padding: 150px 0 100px 0;
+  }
+
+  .home-content h1 {
+    font-size: 32px;
+  }
+
+  .home-content p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .home-content {
+    margin-bottom: 50px;
+  }
+
+  .home-form-header h2 {
+    font-size: 26px;
+  }
+
+  .home-form-header p {
+    font-size: 14px;
+  }
+
+  .home-form-body {
+    padding: 30px 20px 20px;
+  }
+
+  .home-single-input input,
+  .home-single-input select {
+    height: 36px;
+    font-size: 14px;
+  }
+
+  .home-apply-btn {
+    height: 36px;
+    line-height: 36px;
+    font-size: 15px;
+  }
+
+  .main-nav {
+    right: -65%;
+    width: 65%;
+  }
+
+  .featured-item {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+  .featured-item img {
+    width: 60px;
+    margin-bottom: 18px;
+  }
+
+  .featured-item h4 {
+    font-size: 18px;
+  }
+
+  .featured-item p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .why {
+    padding: 80px 0;
+  }
+
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .reason-content h4 {
+    font-size: 20px;
+  }
+
+  .reason-content p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .reason-img {
+    border-radius: 12px;
+    width: 45px;
+    padding: 7px;
+    margin-right: 15px;
+  }
+
+  .refinalce-item-img {
+    margin-bottom: 30px;
+  }
+
+  .refinalce-item-content h4 {
+    font-size: 25px;
+  }
+
+  .refinalce-item-content p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .c2a {
+    padding: 50px 0;
+  }
+
+  .c2a h2 {
+    font-size: 38px;
+  }
+
+  .c2a p {
+    font-size: 17px;
+  }
+
+  .c2a p br {
+    display: none;
+  }
+
+  .c2a-btn {
+    font-size: 17px;
+    padding: 11px 28px;
+  }
+
+  .foot-desc,
+  .foot-contact,
+  .foot-media {
+    margin-bottom: 30px;
+  }
+
+  .copyright-text {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .privacy-links {
+    float: none;
+    text-align: center;
+  }
+
+  .privacy-links li:last-child {
+    margin-right: 8px;
+  }
+
+  .privacy-links li {
+    margin: 0 8px;
+  }
+
+}
+
+/* SM Device :576px. */
+@media (min-width: 576px) and (max-width: 767px) {
+  .home-content h1 {
+    font-size: 38px;
+  }
+
+  .home-form {
+    width: 380px;
+    margin: 0 auto;
+  }
+
+}
